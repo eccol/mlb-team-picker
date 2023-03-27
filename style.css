@@ -1,0 +1,19 @@
+.grid-container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 100px;
+    /* outline: 1px solid black; */
+    flex: 0 1 100px;
+}
+
+.faded {
+    background-color: gray;
+}
+
+.faded>img {
+    opacity: 0.5;
+}
