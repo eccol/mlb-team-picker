@@ -3,6 +3,9 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    background-image: url('img/bg3.jpg');
+    background-position: center;
 }
 
 .question {
@@ -15,6 +18,7 @@ body {
 }
 
 .grid-container {
+    background-color: rgb(211, 211, 211, .36);
     margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -27,9 +31,9 @@ body {
 }
 
 .faded {
-    background-color: gray;
+    background-color: rgb(128, 128, 128, 0.5);
 }
 
 .faded>img {
-    opacity: 0.5;
+    opacity: 0.36;
 }
