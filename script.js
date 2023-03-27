@@ -32,7 +32,6 @@ list.forEach((abb) => {
     new_div = document.createElement("div");
     new_div.classList.add("square");
     new_div.id = abb;
-    // new_div.textContent = abb;
     new_div.innerHTML = "<img src=\"logos/" + abb + ".png\" alt=\"" + abb + "\" width =\"100\">";
     div_container.appendChild(new_div);
 })
@@ -56,5 +55,5 @@ function next() {
     question.textContent = Q[i];
 }
 
-// Initial
+// Initial update
 next();

@@ -1,12 +1,28 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.question {
+    text-align: center;
+}
+
+.grid-container-container {
+    display: flex;
+    justify-content: center;
+}
+
 .grid-container {
     margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
+    flex: 0 1 600px;
 }
 
 .square {
     height: 100px;
-    /* outline: 1px solid black; */
     flex: 0 1 100px;
 }
 
