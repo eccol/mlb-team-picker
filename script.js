@@ -53,6 +53,10 @@ function next() {
     i++;
     question = document.querySelector(".question");
     question.textContent = Q[i];
+    if (i == Q.length) {
+        document.querySelector('.button-container').remove();
+        question.textContent = "Done!"
+    }
 }
 
 // Initial update
