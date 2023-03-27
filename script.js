@@ -8,7 +8,7 @@ Q = ["I want a team with over 100 years of history.",
     "Orange is a stupid color.",
     "I can't watch any day games and I don't want to miss many games.",
     "Native American themed team names are offensive.",
-    "I hate teams that were stolent from another city in the last 50 years.",
+    "I hate teams that were stolen from another city in the last 50 years.",
     "I like players with beards.",
     "I don't want to cheer for baseball's current villains."];
 Q_answers = [["LAA", "TEX", "HOU", "NYM", "KCR", "WSN", "SDP", "SEA", "MIL", "TOR", "COL", "MIA", "ARI", "TBR"],
