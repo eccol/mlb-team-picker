@@ -37,15 +37,17 @@ list.forEach((abb) => {
 })
 
 document.querySelectorAll("button").forEach((btn) => btn.addEventListener("click", e => {
-    if (e.target.id == "Y") {
-        fade();
-    }
+    fade(e.target.id);
     next();
 }))
 
-function fade() {
+function fade(response) {
     Q_answers[i].forEach((sq) => {
-        document.getElementById(sq).classList.add("faded");
+        if (response == "Y") {
+            document.getElementById(sq).classList.add("faded");
+        } else if (response == "VN") {
+            document.getElementById(sq).classList.add("emphasis");
+        }
     })
 }
 

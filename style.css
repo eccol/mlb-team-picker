@@ -38,6 +38,10 @@ button {
     flex: 0 1 100px;
 }
 
+div[class="square emphasis"] {
+    background: radial-gradient(green, rgb(255, 255, 255, 0))
+}
+
 .faded {
     background-color: rgb(128, 128, 128, 0.5);
 }
