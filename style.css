@@ -10,6 +10,14 @@ body {
 
 .question {
     text-align: center;
+    color: white;
+}
+
+button {
+    width: 300px;
+    padding: 7px;
+    font-size: 30px;
+    border: none;
 }
 
 .grid-container-container {
@@ -35,5 +43,5 @@ body {
 }
 
 .faded>img {
-    opacity: 0.36;
+    opacity: 0.24;
 }
